@@ -1,0 +1,131 @@
+body {
+    background: #d7d1ff;
+}
+
+button {
+    border: 0;
+    width: 130px;
+    height: 50px;
+    background: white;
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    padding: 4px 4px;
+    outline: none;
+    font-family: WorkSans-Light;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button a {
+    font-family: WorkSans-Medium;
+    color: #cdc7f5;
+}
+
+button:hover {
+    border-radius: 10px;
+    cursor:not-allowed;
+}
+
+h1 {
+    background-color: white;
+    color: #cdc7f5;
+    font-size: 100px;
+    font-family: WorkSans-Regular;
+    text-align: center;
+    transition: 0.5s;
+}
+
+h1:hover {
+    border-radius: 10px;
+    cursor:default;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    font-family: WorkSans-Light;
+}
+
+.box {
+    width: 700px;
+    position: absolute;
+    height: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 55px;
+    text-align: center;
+}
+
+.fnac-box {
+    background-color: white;
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 20% auto;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.fnac-box p {
+    color: #d7d1ff;
+    margin: 37px 110px;
+    text-align: left;
+}
+
+.a {
+    font-family: WorkSans-Regular;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+img {
+    list-style: none;
+    display: table;
+    width: 80px;
+    margin-top: -86px;
+    margin-left: 13px;
+}
+
+@media only screen and (max-width: 768px) {     
+    h1 {
+        font-size: 40px;
+        font-family: WorkSans-Regular;
+    }
+    
+    p{
+        font-size: 10px;
+        font-family: WorkSans-Light;
+    }
+
+    .box {
+        width: 300px;
+        position: absolute;
+        height: 0px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 55px;
+        text-align: center;
+    }
+
+    img {
+        margin-left: 8px;
+        margin-top: -45px;
+        width: 40px;;
+    }
+
+    .fnac-box {
+        width: 250px;
+        height: 50px;
+        border-radius: 10px;
+        margin-top: 30%;
+    }
+
+    .fnac-box p {
+        color: #d7d1ff;
+        margin: 19px 55px;
+    }
+}
