@@ -57,3 +57,40 @@
   font-family: WorkSans-ExtraLightItalic;
   src: url("./fonts/WorkSans-ExtraLightItalic.ttf");
 }
+
+
+
+@font-face {
+  font-family: MPLUS1-Bold;
+  src: url("./fonts/MPLUS1Code-Bold.ttf");
+}
+
+@font-face {
+  font-family: MPLUS1-ExtraLight;
+  src: url("./fonts/MPLUS1Code-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: MPLUS1-Light;
+  src: url("./fonts/MPLUS1Code-Light.ttf");
+}
+
+@font-face {
+  font-family: MPLUS1-Medium;
+  src: url("./fonts/MPLUS1Code-Medium.ttf");
+}
+
+@font-face {
+  font-family: MPLUS1-Regular;
+  src: url("./fonts/MPLUS1Code-Regular.ttf");
+}
+
+@font-face {
+  font-family: MPLUS1-SemiBold;
+  src: url("./fonts/MPLUS1Code-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: MPLUS1-Thin;
+  src: url("./fonts/MPLUS1Code-Thin.ttf");
+}

@@ -1,54 +1,31 @@
 body {
-    background: #d7d1ff;
+    background: black;
 }
 
-button {
-    border: 0;
-    width: 130px;
-    height: 50px;
-    background: white;
-    display: block;
-    margin: 15px auto;
-    text-align: center;
-    padding: 4px 4px;
-    outline: none;
-    font-family: WorkSans-Light;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-button a {
-    font-family: WorkSans-Medium;
-    color: #cdc7f5;
-}
-
-button:hover {
-    border-radius: 10px;
-    cursor:not-allowed;
+.active {
+    color: black;
 }
 
 h1 {
-    background-color: white;
-    color: #cdc7f5;
+    color: #dddddd;
     font-size: 100px;
-    font-family: WorkSans-Regular;
+    font-family: MPLUS1-Regular;
     text-align: center;
     transition: 0.5s;
 }
 
 h1:hover {
     border-radius: 10px;
-    cursor:default;
 }
 
 p{
     color: white;
     font-size: 20px;
-    font-family: WorkSans-Light;
+    font-family: MPLUS1-Light;
 }
 
 .box {
-    width: 700px;
+    width: 900px;
     position: absolute;
     height: 0px;
     left: 50%;
@@ -57,37 +34,54 @@ p{
     text-align: center;
 }
 
-.fnac-box {
-    background-color: white;
-    width: 500px;
-    height: 100px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 20% auto;
+.box button {
+    font-family: MPLUS1-Regular;
+    border: 0;
+    width: 130px;
+    height: 45px;
+    background: #dddddd;
+    display: block;
+    margin: 50px auto;
     text-align: center;
-    border-radius: 20px;
+    font-size: 20px;
+    padding: 4px 4px;
+    outline: none;
+    color: black;
+    border-radius: 12px;
     cursor: pointer;
 }
 
-.fnac-box p {
-    color: #d7d1ff;
-    margin: 37px 110px;
-    text-align: left;
+.box button:hover {
+    background-color: white;
 }
 
 .a {
-    font-family: WorkSans-Regular;
+    font-family: MPLUS1-Regular;
     text-decoration: none;
     font-size: 15px;
 }
 
+.MenuNavigation {
+    font-family: MPLUS1-Light;
+}
+
+hr {
+    background: white;
+    border: 0;
+    height: 5px;
+}
+
 img {
-    list-style: none;
-    display: table;
-    width: 80px;
-    margin-top: -86px;
-    margin-left: 13px;
+    width: 400px;
+    height: 250px;
+    margin: 15px 15px;
+}
+
+.menu {
+    margin-top: -8px;
+    height: 200px;
+    width: 100%;
+    background: url("images/TopLogo2.png");
 }
 
 @media only screen and (max-width: 768px) {     
@@ -112,20 +106,6 @@ img {
     }
 
     img {
-        margin-left: 8px;
-        margin-top: -45px;
-        width: 40px;;
-    }
-
-    .fnac-box {
-        width: 250px;
-        height: 50px;
-        border-radius: 10px;
-        margin-top: 30%;
-    }
-
-    .fnac-box p {
-        color: #d7d1ff;
-        margin: 19px 55px;
+        margin: 0px 0px;
     }
 }
