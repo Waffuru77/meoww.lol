@@ -1,0 +1,162 @@
+body {
+    background-image: url("Background.png");
+}
+
+.active {
+    color: black;
+}
+
+h1 {
+    color: #da4f4f;
+    font-size: 100px;
+    font-family: ipixelu;
+    text-align: center;
+    text-shadow: 0px 10px #972020;
+}
+
+h1:hover {
+    border-radius: 10px;
+}
+
+p{
+    color: #da4f4f;
+    font-size: 20px;
+    font-family: gameovercre;
+}
+
+.download-box {
+    width: 300px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    position: fixed;
+    z-index: 1;
+}
+
+.download-box button {
+    border: 0;
+    width: 180px;
+    height: 45px;
+    background: #da4f4f;
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 4px 4px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-family: gameovercre;
+
+    box-shadow: 0px 10px #972020;
+}
+
+.download-box button:hover {
+    box-shadow: 0px 0px #972020;
+    margin-bottom: 40px;
+}
+
+.box {
+    width: 900px;
+    position: absolute;
+    height: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 55px;
+    text-align: center;
+}
+
+.box button {
+    border: 0;
+    width: 180px;
+    height: 45px;
+    background: #da4f4f;
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 4px 4px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-family: gameovercre;
+
+    box-shadow: 0px 10px #972020;
+}
+
+.box button:hover {
+    background-color: white;
+    box-shadow: 0px 10px grey;
+    color: black;
+}
+
+.a {
+    font-family: gameovercre;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.MenuNavigation {
+    font-family: MPLUS1-Light;
+}
+
+hr {
+    background: #da4f4f;
+    border: 0;
+    height: 5px;
+}
+
+.menu {
+    margin-top: -8px;
+    height: 200px;
+    width: 100%;
+    background: url("images/TopLogo2.png");
+}
+
+#particles-js canvas {
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+}
+
+.screenshots img {
+    border: solid 5px #da4f4f;
+}
+
+@media only screen and (max-width: 768px) {     
+    h1 {
+        font-size: 40px;
+    }
+    
+    p{
+        font-size: 10px;
+    }
+
+    .box {
+        width: 300px;
+        position: absolute;
+        height: 0px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 55px;
+        text-align: center;
+    }
+
+    img {
+        margin: 0px 0px;
+    }
+}

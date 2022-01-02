@@ -94,3 +94,17 @@
   font-family: MPLUS1-Thin;
   src: url("./fonts/MPLUS1Code-Thin.ttf");
 }
+
+
+
+
+
+@font-face {
+  font-family: ipixelu;
+  src: url("./fonts/I-pixel-u.ttf");
+}
+
+@font-face {
+  font-family: gameovercre;
+  src: url("./fonts/gameovercre1.ttf");
+}

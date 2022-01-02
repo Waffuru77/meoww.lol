@@ -2,8 +2,12 @@ function MenuHome() {
     window.location.href = "./index.html";
 }
 
-function MenuDownloads() {
-    window.location.href = "./downloads.html";
+function MenuFiveNightsAtCatboys() {
+    window.location.href = "./FiveNightsAtCatboys.html";
+}
+
+function MenuKillDaFags() {
+    window.location.href = "./KillDaF4gs.html";
 }
 
 function FNaClink() {
