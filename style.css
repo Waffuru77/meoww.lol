@@ -9,11 +9,17 @@ body {
 
 h1, p {
 	text-align: center;
+	color:white;
 }
 
 a {
 	font-size: 28pt;
 	color: #0f0;
+	transition: 0.15s;
+}
+
+a:hover {
+	color: #00f;
 }
 
 .footer {
