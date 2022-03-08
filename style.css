@@ -4,35 +4,66 @@ html, body {
 }
 
 body {
-	background: #000000;
+	background: #2d333f;
+	font-family:monospace!important;
 }
 
 h1, p {
 	text-align: center;
-	color:white;
+	color:#c4b898;
+}
+
+h1 {
+	font-size: 40px;
 }
 
 a {
-	font-size: 28pt;
-	color: #0f0;
-	transition: 0.15s;
+	text-decoration:none;
+	color:#c4b898!important
 }
 
 a:hover {
-	color: #00f;
+	transition:0.2s!important;
+	color:#fff!important
 }
 
 .footer {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	background-color: #000;
+	background-color: #222222;
 	color: #fff;
 	width: 100%;
 	text-align: left; 
 }
 
 .footer p {
+	color: #495a80;
 	margin: 2px;
 	padding: 2px;
+}
+
+table {
+	margin: 0px 40px;
+}
+
+th, td {
+	font-size: 44px;
+	text-align: center;
+	color: white;
+	width: 50px;
+	height: 50px;
+	font-family: "Monaco", Monospace;
+	background-color: #282c34;
+	position:fixed;
+}
+
+th:hover {
+	background-color: #444444;
+	cursor: pointer;
+	border-bottom: 3px solid #ffb52a;
+}
+
+.screenshots {
+	margin-top: 25px;
 }

@@ -2,12 +2,20 @@ function MenuHome() {
     window.location.href = "./index.html";
 }
 
-function MenuFiveNightsAtCatboys() {
-    window.location.href = "./FiveNightsAtCatboys.html";
+function AmonglaBros() {
+    window.location.href = "./amongla bros.html";
 }
 
-function MenuKillDaFags() {
-    window.location.href = "./KillDaF4gs.html";
+function ManiaSkin() {
+    window.location.href = "./mania skin.html";
+}
+
+function AmonglaRun() {
+    window.location.href = "./amongla run.html";
+}
+
+function MenuFiveNightsAtCatboys() {
+    window.location.href = "./FiveNightsAtCatboys.html";
 }
 
 function FNaClink() {
