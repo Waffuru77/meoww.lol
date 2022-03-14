@@ -56,6 +56,7 @@ th, td {
 	font-family: "Monaco", Monospace;
 	background-color: #282c34;
 	position:fixed;
+	transition: 0.15s;
 }
 
 th:hover {
