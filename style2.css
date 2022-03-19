@@ -27,7 +27,6 @@ p{
 .box {
     width: 900px;
     position: absolute;
-    height: 0px;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: 55px;
@@ -61,10 +60,6 @@ p{
     font-size: 15px;
 }
 
-.MenuNavigation {
-    font-family: MPLUS1-Light;
-}
-
 hr {
     background: white;
     border: 0;
@@ -75,37 +70,4 @@ img {
     width: 400px;
     height: 250px;
     margin: 15px 15px;
-}
-
-.menu {
-    margin-top: -8px;
-    height: 200px;
-    width: 100%;
-    background: url("images/TopLogo2.png");
-}
-
-@media only screen and (max-width: 768px) {     
-    h1 {
-        font-size: 40px;
-        font-family: WorkSans-Regular;
-    }
-    
-    p{
-        font-size: 10px;
-        font-family: WorkSans-Light;
-    }
-
-    .box {
-        width: 300px;
-        position: absolute;
-        height: 0px;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        margin-top: 55px;
-        text-align: center;
-    }
-
-    img {
-        margin: 0px 0px;
-    }
 }
