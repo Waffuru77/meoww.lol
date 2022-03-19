@@ -3,15 +3,15 @@ function MenuHome() {
 }
 
 function AmonglaBros() {
-    window.location.href = "./amongla bros.html";
+    window.location.href = "./amonglabros.html";
 }
 
 function ManiaSkin() {
-    window.location.href = "./mania skin.html";
+    window.location.href = "./maniaskin.html";
 }
 
 function AmonglaRun() {
-    window.location.href = "./amongla run.html";
+    window.location.href = "./amonglarun.html";
 }
 
 function MenuFiveNightsAtCatboys() {
