@@ -14,6 +14,14 @@ function AmonglaRun() {
     window.location.href = "./amonglarun.html";
 }
 
+function Csapótale() {
+    window.location.href = "./csapotale.html";
+}
+
+function DevelopmentProgress() {
+    window.location.href = "./blogs.html";
+}
+
 function MenuFiveNightsAtCatboys() {
     window.location.href = "./FiveNightsAtCatboys.html";
 }
