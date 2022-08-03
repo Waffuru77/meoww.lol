@@ -15,7 +15,7 @@ function AmonglaRun() {
 }
 
 function DevelopmentProgress() {
-    window.location.href = "./blogs.html";
+    window.location.href = "./devupdates.html";
 }
 
 function MenuFiveNightsAtCatboys() {
