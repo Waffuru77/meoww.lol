@@ -2,8 +2,8 @@ function MenuHome() {
     window.location.href = "./index.html";
 }
 
-function AmonglaBros() {
-    window.location.href = "./amonglabros.html";
+function AmonglaFighters() {
+    window.location.href = "./amonglafighters.html";
 }
 
 function ManiaSkin() {
