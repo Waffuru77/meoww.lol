@@ -1,8 +1,12 @@
 :root {
-    --default-color: white;
-	--background: #1e2327;
-	--box-color: #2b3339;
+    --default-color: #eeae98;
+	--background: #212329;
+	--box-color: #2d3646;
+
+	/* cool white color: #e6e8ee */
 }
+
+/*
 
 @keyframes main-color-anim {
 	100%,0%{
