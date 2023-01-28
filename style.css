@@ -1,7 +1,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	cursor: url('./images/cursor.png'), auto;
+	/*cursor: url('./images/cursor.png'), auto;*/
 
 	padding-bottom: 150px;
 }
@@ -99,7 +99,8 @@ button {
 	font-size: 20px;
 	color: var(--default-color);
 	box-shadow: 0px 0px 15px #1d2327;
-	cursor: url('./images/cursor.png'), auto;
+	cursor: pointer;
+
 	animation: main-color-anim 2.5s linear;
 	animation-iteration-count: infinite;
 }
@@ -143,7 +144,7 @@ th, td {
 	background-color: var(--box-color);
 	position:fixed;
 	z-index: 1;
-	cursor: url('./images/cursor.png'), auto;
+	cursor: pointer;
 	animation: main-color-anim 2.5s linear;
 	animation-iteration-count: infinite;
 }
